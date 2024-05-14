@@ -58,14 +58,7 @@ function Projects() {
          I've embarked on a journey of crafting digital experiences that seamlessly blend creativity with functionality. From dynamic web applications to responsive interfaces, each project is a testament to my passion for pushing boundaries and delivering solutions that resonate with users
         </p>
         <div className="flex justify-center items-center gap-4 mt-12 mb-2 ">
-          <button
-            onClick={() => setDurum(1)}
-            className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px] ${
-              durum == 1 ? "bg-[linear-gradient(90deg,#b004b0,#38097a)]" : ""
-            }`}
-          >
-            Projects
-          </button>
+          
           {/* <button
             onClick={() => setDurum(2)}
             className={`font-bold text-[19px] border-2  bg-[#171717] rounded-[6px] p-[4px] ${
